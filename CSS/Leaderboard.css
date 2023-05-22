@@ -1,0 +1,102 @@
+.image-container {
+    background-image: url(../1.png);
+    height: 844px;
+    width: 390px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 40%;
+}
+       
+.our-game-homepage {
+    position: absolute;
+    width: 390px;
+    height: 780px;
+    left: 40%;
+    top: 50px;        
+    background-color:#52438E;
+}
+        
+.our-game-preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    width: 330px;
+    height: 550px;
+    left: 665px;
+    top: 94px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #590f85;    
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-align: center;
+    
+
+      /* border: solid;
+    border-width: 5px;
+    border-color: aqua; */
+
+}
+
+.our-game-rewards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    width: 330px;
+    height: 44px;
+    left: 665px;
+    top: 680px;
+    background: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.199);
+    border-radius: 12px;   
+
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #ffffff;    
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-align: center;
+
+    /* border: solid;
+    border-width: 5px;
+    border-color: aqua; */
+}
+
+.our-game-home {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    width: 330px;
+    height: 44px;
+    left: 665px;
+    top: 750px;
+    background: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.199);
+    border-radius: 12px;   
+
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #ffffff;    
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-align: center;
+
+    /* border: solid;
+    border-width: 5px;
+    border-color: aqua; */
+}

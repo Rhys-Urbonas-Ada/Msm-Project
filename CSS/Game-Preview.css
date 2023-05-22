@@ -1,0 +1,222 @@
+.image-container {
+    background-image: url(../1.png);
+    height: 844px;
+    width: 390px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 40%;
+}
+       
+.our-game-homepage {
+    position: absolute;
+    width: 390px;
+    height: 780px;
+    left: 40%;
+    top: 50px;        
+    background-color:#52438E;
+}
+
+        
+.our-game-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    width: 330px;
+    height: 44px;
+    left: 665px;
+    top: 100px;
+    background: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 12px;   
+
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #ffffff;    
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-align: center;
+    
+
+      /* border: solid;
+    border-width: 5px;
+    border-color: aqua; */
+
+}
+
+.our-game-leaderboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    width: 330px;
+    height: 44px;
+    left: 665px;
+    top: 558px;
+    background: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.199);
+    border-radius: 12px;   
+
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #ffffff;    
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-align: center;
+
+    /* border: solid;
+    border-width: 5px;
+    border-color: aqua; */
+}
+
+.our-game-leaderboard-logo{
+    
+    background-image: url(../Images/Graph.png);
+    width: 120px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 770px;
+    top: 635px;
+    /* border: solid;
+    border-color: white;
+    border-width: 3px; */
+}
+
+.our-game-rewards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    width: 330px;
+    height: 44px;
+    left: 665px;
+    top: 364px;
+    background: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.199);
+    border-radius: 12px;   
+
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #ffffff;    
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-align: center;
+
+    /* border: solid;
+    border-width: 5px;
+    border-color: aqua; */
+}
+
+.our-game-rewards-logo{
+    background-image: url(../Images/Rewards.png);
+    width: 120px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 770px;
+    top: 425px;
+    /* border: solid;
+    border-color: white;
+    border-width: 3px; */
+}
+
+.our-game-home {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    width: 70px;
+    height: 44px;
+    left: 645px;
+    top: 50px;
+    background: #ffffff00;
+    border-radius: 12px;   
+
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #ffffff;    
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-align: center;
+    padding-bottom: 10px;
+
+    /* border: solid;
+    border-width: 5px;
+    border-color: aqua; */
+}
+
+.our-game-start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    width: 330px;
+    height: 44px;
+    left: 665px;
+    top: 170px;
+    background: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.199);
+    border-radius: 12px;   
+
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #ffffff;    
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-align: center;
+
+    /* border: solid;
+    border-width: 5px;
+    border-color: aqua; */
+}
+
+.our-game-start-logo{
+    background-image: url(../Images/Controller.png);
+    width: 120px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 770px;
+    top: 240px;
+
+    /* border: solid;
+    border-color: white;
+    border-width: 3px; */
+}
+
+/* .DIFF {
+    
+    width: 100px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 770px;
+    top: 214px;
+
+    border: solid;
+    border-color: rgb(255, 0, 0);
+    border-width: 3px;
+} */
+
