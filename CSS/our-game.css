@@ -8,25 +8,27 @@
 
 .our-game-logo {
     position: absolute;
-    width: 330px;
-    height: 240px;        
-    background-image: url(../GameLogo.png);
+    width: 280px;
+    height: 130px;        
+    background-image: url(..//Images/logo\ RPS.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
-
+    left: 25px;
+    top: 20px;
     /* border: solid;
     border-width: 5px;
     border-color: aqua; */
+
 }
 
-.our-game-text {
+.our-game-h1text {
     position: absolute;
     Width: 330px;
     height: 100px;
-    top: 180px;
+    top: 120px;
     
     padding-top: 55px;
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -41,6 +43,26 @@
     border-width: 5px;
     border-color: aqua; */
 }
+.our-game-h2text {
+    position: absolute;
+    Width: 330px;
+    height: 100px;
+    top: 170px;
+    
+    padding-top: 55px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #590f85;    
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-align: center;
+
+    /* border: solid;
+    border-width: 5px;
+    border-color: aqua; */
+}
+
 .our-game-subtext {
    
     position: absolute;
