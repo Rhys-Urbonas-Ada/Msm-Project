@@ -27,8 +27,8 @@
     position: absolute;
     width: 330px;
     height: 44px;
-    left: 665px;
-    top: 100px;
+    left: 8%;
+    top: 10px;
     background: #FFFFFF;
     background-color: rgba(255, 255, 255, 0);
     border-radius: 12px;   
@@ -56,8 +56,8 @@
     position: absolute;
     width: 330px;
     height: 44px;
-    left: 665px;
-    top: 718px;
+    left: 8%;
+    top: 660px;
     background: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.199);
     border-radius: 12px;   
@@ -84,8 +84,8 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    left: 770px;
-    top: 590px;
+    left: 34%;
+    top: 520px;
     /* border: solid;
     border-color: white;
     border-width: 3px; */
@@ -99,8 +99,8 @@
     position: absolute;
     width: 330px;
     height: 44px;
-    left: 665px;
-    top: 514px;
+    left: 8%;
+    top: 440px;
     background: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.199);
     border-radius: 12px;   
@@ -126,8 +126,8 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    left: 770px;
-    top: 365px;
+    left: 34%;
+    top: 280px;
     /* border: solid;
     border-color: white;
     border-width: 3px; */
@@ -142,8 +142,8 @@
     position: absolute;
     width: 70px;
     height: 44px;
-    left: 645px;
-    top: 50px;
+    left: 8%;
+    top: 75px;
     background: #ffffff00;
     border-radius: 12px;   
 
@@ -169,8 +169,8 @@
     position: absolute;
     width: 330px;
     height: 44px;
-    left: 665px;
-    top: 300px;
+    left: 8%;
+    top: 200px;
     background: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.199);
     border-radius: 12px;   
@@ -196,8 +196,8 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    left: 770px;
-    top: 170px;
+    left: 34%;
+    top: 70px;
 
     /* border: solid;
     border-color: white;

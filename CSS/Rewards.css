@@ -27,13 +27,11 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    left: 770px;
-    top: 635px;
+    left: 30px;
+    top: 35px;
 
     width: 330px;
     height: 550px;
-    left: 665px;
-    top: 94px;
     border-radius: 12px;
     
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -59,8 +57,8 @@
         position: absolute;
         width: 330px;
         height: 44px;
-        left: 665px;
-        top: 680px;
+        left: 30px;
+        top: 630px;
         background: #FFFFFF;
         background-color: rgba(255, 255, 255, 0.199);
         border-radius: 12px;   
@@ -91,8 +89,8 @@
     position: absolute;
     width: 330px;
     height: 44px;
-    left: 665px;
-    top: 750px;
+    left: 30px;
+    top: 700px;
     background: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.199);
     border-radius: 12px;   
@@ -110,3 +108,19 @@
     border-color: aqua; */
 }
 
+.MSM-Home {
+
+    background-image: url(../Images/logo.png);
+    width: 70px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 155px;
+    bottom: 740px;
+
+      /* border: solid;
+    border-width: 5px;
+    border-color: aqua; */
+}
