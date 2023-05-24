@@ -8,15 +8,15 @@
 
 .our-game-logo {
     position: absolute;
-    width: 280px;
-    height: 130px;        
-    background-image: url(..//Images/logo\ RPS.png);
+    width: 150px;
+    height: 150px;        
+    background-image: url(..//Images/snakelogo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
-    right: 657px;
+    right: 720px;
     top: 25px;
 
     /* border: solid;
