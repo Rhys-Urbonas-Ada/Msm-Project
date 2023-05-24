@@ -19,33 +19,23 @@
 }
         
 .our-game-preview {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url(../Images/leaderboard1.png);    
+
+    background-repeat: no-repeat;
+    background-size:contain;
     position: absolute;
-
-    width: 330px;
-    height: 530px;
-    left: 30px;
+    left: 34px;
     top: 55px;
-    background: #FFFFFF;
-    border-radius: 12px;
-    
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-    color: #590f85;    
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 24px;
-    margin-bottom: 8px;
-    text-align: center;
-    
 
-      /* border: solid;
+    width: 350px;
+    height: 550px;
+    border-radius: 12px;
+
+    /* border: solid;
     border-width: 5px;
     border-color: aqua; */
-
-}
-
+  }
+ 
 .our-game-rewards {
     display: flex;
     justify-content: center;
@@ -68,11 +58,15 @@
     margin-bottom: 8px;
     text-align: center;
 
+    cursor: pointer;
+
     /* border: solid;
     border-width: 5px;
     border-color: aqua; */
-}
-
+  }
+  .our-game-rewards:hover {
+    transform: scale(1.1);
+  }
 .our-game-home {
 
     display: flex;
@@ -96,9 +90,14 @@
     margin-bottom: 8px;
     text-align: center;
 
-    /* border: solid;
-    border-width: 5px;
-    border-color: aqua; */
+    cursor: pointer;
+
+  /* border: solid;
+  border-width: 5px;
+  border-color: aqua; */
+}
+.our-game-home:hover {
+  transform: scale(1.1);
 }
 
 .MSM-Home {

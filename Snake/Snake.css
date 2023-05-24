@@ -114,10 +114,14 @@ body{
   line-height: 24px;
   margin-bottom: 8px;
   text-align: center;
+  cursor: pointer;
 
   /* border: solid;
   border-width: 5px;
   border-color: aqua; */
+}
+.our-game-home:hover {
+  transform: scale(1.1);
 }
 
 .MSM-Home {
