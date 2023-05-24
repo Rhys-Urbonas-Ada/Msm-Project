@@ -70,10 +70,15 @@
     margin-bottom: 8px;
     text-align: center;
 
+    cursor: pointer;
+
     /* border: solid;
     border-width: 5px;
     border-color: aqua; */
-}
+  }
+  .our-game-leaderboard:hover {
+    transform: scale(1.1);
+  }
 
 .our-game-leaderboard-logo{
     
@@ -112,12 +117,15 @@
     line-height: 24px;
     margin-bottom: 8px;
     text-align: center;
+    cursor: pointer;
 
     /* border: solid;
     border-width: 5px;
     border-color: aqua; */
-}
-
+  }
+  .our-game-rewards:hover {
+    transform: scale(1.1);
+  }
 .our-game-rewards-logo{
     background-image: url(../Images/Rewards.png);
     width: 120px;
@@ -155,12 +163,15 @@
     margin-bottom: 8px;
     text-align: center;
     padding-bottom: 10px;
+    cursor: pointer;
 
     /* border: solid;
     border-width: 5px;
     border-color: aqua; */
-}
-
+  }
+  .our-game-home:hover {
+    transform: scale(1.1);
+  }
 .our-game-start {
     display: flex;
     justify-content: center;
@@ -182,11 +193,15 @@
     line-height: 24px;
     margin-bottom: 8px;
     text-align: center;
+    cursor: pointer;
 
     /* border: solid;
     border-width: 5px;
     border-color: aqua; */
-}
+  }
+  .our-game-start:hover {
+    transform: scale(1.1);
+  }
 
 .our-game-start-logo{
     background-image: url(../Images/Controller.png);
