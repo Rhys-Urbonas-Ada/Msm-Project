@@ -1,23 +1,15 @@
-.our-game {
-    position: absolute;
-    width: 330px;
-    height: 360px;
-    left: 660px;
-    top: 100px;    
-}
-
 .our-game-logo {
     position: absolute;
-    width: 280px;
-    height: 130px;        
-    background-image: url(..//Images/logo\ RPS.png);
+    width: 150px;
+    height: 150px;        
+    background-image: url(..//Images/snakelogo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
-    right: 657px;
-    top: 25px;
+    right: 120px;
+    top: 105px;
 
     /* border: solid;
     border-width: 5px;
@@ -27,7 +19,7 @@
 
 .our-game-h1text {
     position: absolute;
-    Width: 330px;
+    Width: 323px;
     height: 100px;
     top: 120px;
     
@@ -39,8 +31,8 @@
     line-height: 24px;
     margin-bottom: 8px;
     text-align: center;
-    right: 635px;
-    top: 120px
+    left: 31px;
+    top: 220px;
 
     /* border: solid;
     border-width: 5px;
@@ -48,11 +40,11 @@
 }
 .our-game-h2text {
     position: absolute;
-    Width: 330px;
+    Width: 323px;
     height: 100px;
-    top: 170px;
+    padding-top: 15px;
+
     
-    padding-top: 55px;
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     color: #590f85;    
     font-size: 26px;
@@ -60,8 +52,8 @@
     line-height: 24px;
     margin-bottom: 8px;
     text-align: center;
-    right: 630px;
-    top: 160px
+    left: 31px;
+    top: 320px;
 
     /* border: solid;
     border-width: 5px;
@@ -73,9 +65,9 @@
     position: absolute;
     Width: 200px;
     height: 50px;
+    left: 90px;
+    top: 380px;
     padding-top: 15px;
-    right: 695px;
-    top: 270px;
    
     background-color: #590f85;
     border-radius: 12px;
@@ -91,6 +83,6 @@
 
     /* border: solid;
     border-width: 5px;
-    border-color: aqua;
- */
+    border-color: aqua; */
+
 }

@@ -1,0 +1,138 @@
+body{
+    margin: 0 auto;
+}
+
+.image-container {
+  background-image: url(../images/1.png);
+  height: 800px;
+  width: 390px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 40%;
+  padding-top: 25px;
+}
+     
+.our-game-homepage {
+  position: absolute;
+  width: 390px;
+  height: 780px;
+  left: 40%;
+  top: 50px;        
+  background-color:#52438E;
+}
+      
+
+
+.wrapper {
+    margin-top: 55px;
+    margin-left: 30px;
+
+    width: 330px;
+    height: 630px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 12px;
+    background: #293447;
+    box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
+  }
+  .game-details {
+    color: #B8C6DC;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 20px 27px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .play-board {
+    width: 330px;
+    height: 567px;
+    display: grid;
+    background: #212837;
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+  }
+  .play-board .food {
+    background: #FF003D;
+  }
+  .play-board .head {
+    background: #60CBFF;
+  }
+  
+  .controls {
+    display: none;
+    justify-content: space-between;
+  }
+  .controls i {
+    padding: 25px 0;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #B8C6DC;
+    width: calc(100% / 4);
+    cursor: pointer;
+    border-right: 1px solid #171B26;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .wrapper {
+      width: 90vmin;
+      height: 115vmin;
+    }
+    .game-details {
+      font-size: 1rem;
+      padding: 15px 27px;
+    }
+    .controls {
+      display: flex;
+    }
+    .controls i {
+      padding: 15px 0;
+      font-size: 1rem;
+    }
+  }
+
+.our-game-home {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: absolute;
+  width: 330px;
+  height: 44px;
+  left: 30px;
+  top: 700px;
+  background: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.199);
+  border-radius: 12px;   
+
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #ffffff;    
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 8px;
+  text-align: center;
+
+  /* border: solid;
+  border-width: 5px;
+  border-color: aqua; */
+}
+
+.MSM-Home {
+
+  background-image: url(../Images/logo.png);
+  width: 70px;
+  height: 75px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 155px;
+  bottom: 740px;
+
+    /* border: solid;
+  border-width: 5px;
+  border-color: aqua; */
+}

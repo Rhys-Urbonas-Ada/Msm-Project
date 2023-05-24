@@ -1,6 +1,11 @@
+body {
+
+    margin: 0 auto;
+}
+
 .image-container {
     background-image: url(../images/1.png);
-    height: 832px;
+    height: 844px;
     width: 390px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,22 +23,22 @@
     background-color:#52438E;
 }
         
-.our-game-reward {
-
-    background-image: url(../Images/reward.png);
-    width: 130px;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.our-game-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    left: 30px;
-    top: 35px;
 
     width: 330px;
-    height: 550px;
+    height: 530px;
+    left: 30px;
+    top: 55px;
+
+    background-image: url(../Images/GameSnake1.png);
     border-radius: 12px;
-    
+    background-size: cover;
+    background-repeat: no-repeat; 
+
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     color: #590f85;    
     font-size: 30px;
@@ -48,35 +53,36 @@
     border-color: aqua; */
 
 }
-.our-game-back {
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        position: absolute;
-        width: 330px;
-        height: 44px;
-        left: 30px;
-        top: 630px;
-        background: #FFFFFF;
-        background-color: rgba(255, 255, 255, 0.199);
-        border-radius: 12px;   
+.our-game-pause {
+
     
-        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-        color: #ffffff;    
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 24px;
-        margin-bottom: 8px;
-        text-align: center;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-        /* border: solid;
-        border-width: 5px;
-        border-color: aqua; */
-    }
-    
-    
+    position: absolute;
+    width: 330px;
+    height: 44px;
+    left: 30px;
+    top: 630px;
+    background: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.199);
+    border-radius: 12px;   
+
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #ffffff;    
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-align: center;
+
+    /* border: solid;
+    border-width: 5px;
+    border-color: aqua; */
+}
 
 
 

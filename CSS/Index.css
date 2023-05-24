@@ -1,9 +1,10 @@
 .image-container {
-background-image: url(../Images/1.png);
-height: 844px;
-width: 390px;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-position: absolute;
-left: 40%; }
+    background-image: url(../images/1.png);
+    height: 832px;
+    width: 390px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 40%;
+}

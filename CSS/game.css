@@ -1,6 +1,6 @@
 .image-container {
     background-image: url(../images/1.png);
-    height: 844px;
+    height: 832px;
     width: 390px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,9 +28,12 @@
     height: 530px;
     left: 30px;
     top: 55px;
-    background: #FFFFFF;
+
+    background-image: url(../Images/GameSnake1.png);
     border-radius: 12px;
-    
+    background-size: cover;
+    background-repeat: no-repeat; 
+
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     color: #590f85;    
     font-size: 30px;
@@ -48,6 +51,8 @@
 
 .our-game-pause {
 
+    
+    cursor:pointer;
     display: flex;
     justify-content: center;
     align-items: center;
