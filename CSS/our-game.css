@@ -1,15 +1,40 @@
+.our-game-h0text {
+  position: absolute;
+  Width: 323px;
+  height: 100px;
+  top: 90px;
+  
+
+  font-size: 14px;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+
+  padding-top: 55px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #554565;    
+  text-align: center;
+  left: 31px;
+
+  cursor: pointer;
+
+  /* border: solid;
+  border-width: 5px;
+  border-color: aqua; */
+}
+
 .our-game-logo {
     position: absolute;
-    width: 150px;
-    height: 150px;        
+    width: 120px;
+    height: 120px;        
     background-image: url(..//Images/snakelogo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
-    right: 120px;
-    top: 105px;
+    right: 135px;
+    top: 165px;
 
     /* border: solid;
     border-width: 5px;
@@ -21,18 +46,18 @@
     position: absolute;
     Width: 323px;
     height: 100px;
-    top: 120px;
+    top: 270px;
     
-    padding-top: 55px;
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-    color: #590f85;    
-    font-size: 30px;
+    color: var(--font-color-inverted,#2b173f);
+    font-family: Heading Now,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 18px;
     font-weight: 700;
+    line-height: 28px;
+    margin: 20px 0 10px;
     line-height: 24px;
     margin-bottom: 8px;
     text-align: center;
     left: 31px;
-    top: 220px;
 
     cursor: pointer;
 
@@ -44,38 +69,38 @@
     transform: scale(1.1);
   }
 .our-game-h2text {
-    position: absolute;
-    Width: 323px;
-    height: 100px;
-    padding-top: 15px;
+  position: absolute;
+  Width: 323px;
+  height: 100px;
+  top: 270px;
+  
 
-    
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-    color: #590f85;    
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 24px;
-    margin-bottom: 8px;
-    text-align: center;
-    left: 31px;
-    top: 320px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
 
-    cursor: pointer;
+  padding-top: 55px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #554565;    
+  text-align: center;
+  left: 31px;
 
-    /* border: solid;
-    border-width: 5px;
-    border-color: aqua; */
-  }
+  cursor: pointer;
+
+  /* border: solid;
+  border-width: 5px;
+  border-color: aqua; */
+}
   .our-game-h2::before {
     transform: scale(1.1);
   }
 
-.our-game-subtext {
+.our-game-button {
    
     position: absolute;
-    Width: 200px;
+    Width: 150px;
     height: 50px;
-    left: 90px;
+    left: 120px;
     top: 380px;
     padding-top: 15px;
    
@@ -96,6 +121,6 @@
     border-width: 5px;
     border-color: aqua; */
   }
-  .our-game-subtext:hover {
+  .our-game-button:hover {
     transform: scale(1.1);
   }
